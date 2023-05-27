@@ -5,23 +5,36 @@ body {
 
 h1 {
     font-size: 50px;
+    padding-left: 2%;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    color: orange;
 }
 
 .orange-color {
     color: orange;
 }
 
-section {
+.flexiable-container {
     display: flex;
+    margin-bottom: 20%;
+
 }
 
 .half-width {
-    width: 60%;
+    width: 50%;
     padding-left: 5%;
+
 }
 
 .half-width img {
     width: 80%;
+    padding-left: 10%;
 }
 
 .Link-button {
@@ -40,4 +53,40 @@ section {
     padding-right: 0%;
     padding-top: 3%;
 
+}
+
+.experience-item {
+    background-color: rgb(234, 238, 238);
+}
+
+
+
+.dream-big {
+
+    background-image: -moz-repeating-linear-gradient(grey);
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px gray;
+}
+
+#baby-web-developer {
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 10%;
+}
+
+#full-experience {
+    border-left: 20px solid;
+    border-image: linear-gradient(red, tomato);
+    border-image-slice: 10fr;
+}
+
+footer p {
+    text-align: center;
 }
