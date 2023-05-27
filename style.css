@@ -78,13 +78,13 @@ h3 {
 #baby-web-developer {
     border-left: 10px solid;
     border-image: linear-gradient(blue, cyan);
-    border-image-slice: 10%;
+    border-image-slice: 5%;
 }
 
 #full-experience {
     border-left: 20px solid;
     border-image: linear-gradient(red, tomato);
-    border-image-slice: 10fr;
+    border-image-slice: 5%;
 }
 
 footer p {
